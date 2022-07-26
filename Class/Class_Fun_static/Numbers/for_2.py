@@ -1,0 +1,14 @@
+    #2
+class numbers:
+    def __init__(self):
+        pass
+    def for_2(self,_2):
+        for row in range(_2):#10
+            for col in range(_2):#10
+                if (row==9 )or (col+row==9 and row!=0 and row!=2 and row!=1)or (row==2 and col==6)or (row==1 and col==6)or (row==0 and col==5)or (row==0 and col==4)or (row==0 and col==3)or (row==1 and col==2):
+                    print("*",end=" ")
+                else:
+                    print(" ",end=" ")
+            print()
+
+
